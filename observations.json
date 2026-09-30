@@ -1,0 +1,283 @@
+{
+  "observed_date": "2026-09-29",
+  "scope": "CDMX exploratory pilot, not stable rankings or market share",
+  "limitations": "One observation per prompt and engine. Blocked runs are not absences. Model modes and coverage differ. No repeated-day baseline or demand weighting.",
+  "pilot": [
+    {
+      "id": "P01-chatgpt",
+      "scenario": "P01",
+      "engine": "ChatGPT",
+      "restaurant": "blanco-colima",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 2,
+      "explicit_rank": null
+    },
+    {
+      "id": "P01-claude",
+      "scenario": "P01",
+      "engine": "Claude",
+      "restaurant": "blanco-colima",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 4,
+      "explicit_rank": 4
+    },
+    {
+      "id": "P01-gemini",
+      "scenario": "P01",
+      "engine": "Gemini",
+      "restaurant": "blanco-colima",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "P01-grok",
+      "scenario": "P01",
+      "engine": "Grok",
+      "restaurant": "blanco-colima",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "P01-perplexity",
+      "scenario": "P01",
+      "engine": "Perplexity",
+      "restaurant": "blanco-colima",
+      "status": "authentication_required",
+      "main_list": null,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "P02-chatgpt",
+      "scenario": "P02",
+      "engine": "ChatGPT",
+      "restaurant": "emilio",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "P02-claude",
+      "scenario": "P02",
+      "engine": "Claude",
+      "restaurant": "emilio",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 1,
+      "explicit_rank": null
+    },
+    {
+      "id": "P02-gemini",
+      "scenario": "P02",
+      "engine": "Gemini",
+      "restaurant": "emilio",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 2,
+      "explicit_rank": null
+    },
+    {
+      "id": "P02-grok",
+      "scenario": "P02",
+      "engine": "Grok",
+      "restaurant": "emilio",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 1,
+      "explicit_rank": 1
+    },
+    {
+      "id": "P03-chatgpt",
+      "scenario": "P03",
+      "engine": "ChatGPT",
+      "restaurant": "aromas",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "P03-claude",
+      "scenario": "P03",
+      "engine": "Claude",
+      "restaurant": "aromas",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "P03-gemini",
+      "scenario": "P03",
+      "engine": "Gemini",
+      "restaurant": "aromas",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 1,
+      "explicit_rank": null
+    },
+    {
+      "id": "P03-grok",
+      "scenario": "P03",
+      "engine": "Grok",
+      "restaurant": "aromas",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": true,
+      "display_position": null,
+      "explicit_rank": null
+    }
+  ],
+  "expansion": [
+    {
+      "id": "E01-chatgpt",
+      "scenario": "E01",
+      "engine": "ChatGPT",
+      "restaurant": "Blanco Colima",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 5,
+      "explicit_rank": null
+    },
+    {
+      "id": "E01-grok",
+      "scenario": "E01",
+      "engine": "Grok",
+      "restaurant": "Blanco Colima",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "E02-chatgpt",
+      "scenario": "E02",
+      "engine": "ChatGPT",
+      "restaurant": "Blanco Colima",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "E02-grok",
+      "scenario": "E02",
+      "engine": "Grok",
+      "restaurant": "Blanco Colima",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "E04-chatgpt",
+      "scenario": "E04",
+      "engine": "ChatGPT",
+      "restaurant": "Mood",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "E04-grok",
+      "scenario": "E04",
+      "engine": "Grok",
+      "restaurant": "Mood",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 1,
+      "explicit_rank": 1
+    },
+    {
+      "id": "E05-chatgpt",
+      "scenario": "E05",
+      "engine": "ChatGPT",
+      "restaurant": "Cachava",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 1,
+      "explicit_rank": null
+    },
+    {
+      "id": "E05-grok",
+      "scenario": "E05",
+      "engine": "Grok",
+      "restaurant": "Cachava",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 3,
+      "explicit_rank": 3
+    },
+    {
+      "id": "E07-chatgpt",
+      "scenario": "E07",
+      "engine": "ChatGPT",
+      "restaurant": "Farina",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 2,
+      "explicit_rank": null
+    },
+    {
+      "id": "E07-grok",
+      "scenario": "E07",
+      "engine": "Grok",
+      "restaurant": "Farina",
+      "status": "completed",
+      "main_list": true,
+      "mentioned": true,
+      "display_position": 2,
+      "explicit_rank": 2
+    },
+    {
+      "id": "E09-chatgpt",
+      "scenario": "E09",
+      "engine": "ChatGPT",
+      "restaurant": "Farina",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    },
+    {
+      "id": "E09-grok",
+      "scenario": "E09",
+      "engine": "Grok",
+      "restaurant": "Farina",
+      "status": "completed",
+      "main_list": false,
+      "mentioned": false,
+      "display_position": null,
+      "explicit_rank": null
+    }
+  ]
+}
